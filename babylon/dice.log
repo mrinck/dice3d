@@ -11,1057 +11,154 @@ Exporter version: 2.80.0, Blender version: 2.90.1
 		Keep Z-up r-handed  :  no
 		Texture directory   :  D:\Development\dice3d\babylon\
 	Python World class constructor completed
+	processing begun of mesh:  curtain
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.008 secs
+		num positions      :  1795
+		num normals        :  1795
+		num tangents       :  0
+		num uvs            :  3590
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  708
+	processing begun of mesh:  curtain.001
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.005 secs
+		num positions      :  1795
+		num normals        :  1795
+		num tangents       :  0
+		num uvs            :  3590
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  708
+	processing begun of mesh:  curtain.002
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.005 secs
+		num positions      :  851
+		num normals        :  851
+		num tangents       :  0
+		num uvs            :  1702
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  338
+	processing begun of mesh:  curtain.004
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.005 secs
+		num positions      :  851
+		num normals        :  851
+		num tangents       :  0
+		num uvs            :  1702
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  338
+	processing begun of mesh:  curtain.005
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.005 secs
+		num positions      :  541
+		num normals        :  541
+		num tangents       :  0
+		num uvs            :  1082
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  216
+	processing begun of mesh:  curtain.006
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.0059 secs
+		num positions      :  851
+		num normals        :  851
+		num tangents       :  0
+		num uvs            :  1702
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  338
+	processing begun of mesh:  curtain.007
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.0043 secs
+		num positions      :  1280
+		num normals        :  1280
+		num tangents       :  0
+		num uvs            :  2560
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  508
+	processing begun of mesh:  curtain.008
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.005 secs
+		num positions      :  590
+		num normals        :  590
+		num tangents       :  0
+		num uvs            :  1180
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  234
+	processing begun of mesh:  curtain.009
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.006 secs
+		num positions      :  1795
+		num normals        :  1795
+		num tangents       :  0
+		num uvs            :  3590
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  708
+	processing begun of mesh:  curtain.010
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.005 secs
+		num positions      :  1128
+		num normals        :  1128
+		num tangents       :  0
+		num uvs            :  2256
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  444
+	processing begun of mesh:  curtain.011
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.006 secs
+		num positions      :  261
+		num normals        :  261
+		num tangents       :  0
+		num uvs            :  522
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  104
+	processing begun of mesh:  curtain.012
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.005 secs
+		num positions      :  851
+		num normals        :  851
+		num tangents       :  0
+		num uvs            :  1702
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  338
+	processing begun of mesh:  curtain.013
+		processing begun of material:  curtain_cloth
+			WARNING: unsupported node type(ShaderNodeBsdfVelvet) will trigger baking
+			bake time:  0 min, 0.006 secs
+		num positions      :  569
+		num normals        :  569
+		num tangents       :  0
+		num uvs            :  1138
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  226
 	processing begun of camera (UniversalCamera):  Camera
 	processing begun of node:  Empty
-	processing begun of mesh:  Plane
-		WARNING: No materials have been assigned: 
-		num positions      :  201
-		num normals        :  201
-		num tangents       :  0
-		num uvs            :  402
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  96
-	processing begun of mesh:  Plane.001
-		WARNING: No materials have been assigned: 
-		num positions      :  291
-		num normals        :  291
-		num tangents       :  0
-		num uvs            :  582
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  140
-	processing begun of mesh:  Plane.002
-		WARNING: No materials have been assigned: 
-		num positions      :  291
-		num normals        :  291
-		num tangents       :  0
-		num uvs            :  582
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  140
-	processing begun of mesh:  Plane.003
-		WARNING: No materials have been assigned: 
-		num positions      :  265
-		num normals        :  265
-		num tangents       :  0
-		num uvs            :  530
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  128
-	processing begun of mesh:  desk_cluster
-		processing begun of material:  palette.001
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  1014
-		num normals        :  1014
-		num tangents       :  4056
-		num uvs            :  2028
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  668
-	processing begun of mesh:  desk_cluster.001
-		processing begun of material:  palette.002
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  1014
-		num normals        :  1014
-		num tangents       :  4056
-		num uvs            :  2028
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  668
-	processing begun of mesh:  desk_cluster.002
-		processing begun of material:  palette.003
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  966
-		num normals        :  966
-		num tangents       :  3864
-		num uvs            :  1932
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  640
-	processing begun of mesh:  desk_cluster.003
-		processing begun of material:  palette.004
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  966
-		num normals        :  966
-		num tangents       :  3864
-		num uvs            :  1932
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  640
-	processing begun of mesh:  desk_cluster.004
-		processing begun of material:  palette.005
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  966
-		num normals        :  966
-		num tangents       :  3864
-		num uvs            :  1932
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  640
-	processing begun of mesh:  desk_cluster.005
-		processing begun of material:  palette.006
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  1014
-		num normals        :  1014
-		num tangents       :  4056
-		num uvs            :  2028
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  668
-	processing begun of mesh:  desk_cluster.006
-		processing begun of material:  palette.007
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  1014
-		num normals        :  1014
-		num tangents       :  4056
-		num uvs            :  2028
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  668
-	processing begun of mesh:  desk_cluster.007
-		processing begun of material:  palette.008
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  1014
-		num normals        :  1014
-		num tangents       :  4056
-		num uvs            :  2028
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  668
-	processing begun of mesh:  desk_cluster.008
-		processing begun of material:  palette.009
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  1014
-		num normals        :  1014
-		num tangents       :  4056
-		num uvs            :  2028
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  668
-	processing begun of mesh:  desk_cluster.009
-		processing begun of material:  palette.010
-		processing begun of material:  Material.002
-		processing begun of material:  Material.003
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		processing begun of multimaterial:  dice.Multimaterial#0
-		Custom split normals with tangents being used
-		num positions      :  969
-		num normals        :  969
-		num tangents       :  3876
-		num uvs            :  1938
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  640
-	processing begun of mesh:  desk_cluster.010
-		processing begun of material:  palette.011
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  1014
-		num normals        :  1014
-		num tangents       :  4056
-		num uvs            :  2028
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  668
-	processing begun of mesh:  desk_cluster.011
-		processing begun of material:  palette.012
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  1014
-		num normals        :  1014
-		num tangents       :  4056
-		num uvs            :  2028
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  668
-	processing begun of mesh:  desk_cluster.012
-		processing begun of material:  palette.013
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  966
-		num normals        :  966
-		num tangents       :  3864
-		num uvs            :  1932
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  640
-	processing begun of mesh:  desk_cluster.013
-		processing begun of material:  palette.014
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  966
-		num normals        :  966
-		num tangents       :  3864
-		num uvs            :  1932
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  640
-	processing begun of mesh:  desk_cluster.014
-		processing begun of material:  palette.009
-		registered as also a user of material:  palette.009
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair
-		processing begun of material:  palette.015
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.001
-		processing begun of material:  palette.016
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  dancing_wall
-		processing begun of material:  palette
-			processing texture er_tisch_verl_19_flywall_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  341
-		num normals        :  341
-		num tangents       :  1364
-		num uvs            :  682
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  188
-	processing begun of mesh:  dancing_wall.001
-		processing begun of material:  palette.070
-			processing texture er_tisch_verl_19_flywall_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  341
-		num normals        :  341
-		num tangents       :  1364
-		num uvs            :  682
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  188
-	processing begun of mesh:  dancing_wall.002
-		processing begun of material:  palette.071
-			processing texture er_tisch_verl_19_flywall_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  341
-		num normals        :  341
-		num tangents       :  1364
-		num uvs            :  682
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  188
-	processing begun of mesh:  dancing_wall.003
-		processing begun of material:  palette.072
-			processing texture er_tisch_verl_19_flywall_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  341
-		num normals        :  341
-		num tangents       :  1364
-		num uvs            :  682
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  188
-	processing begun of mesh:  desk_chair.002
-		processing begun of material:  palette.017
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.003
-		processing begun of material:  palette.018
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.004
-		processing begun of material:  palette.019
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.005
-		processing begun of material:  palette.020
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.006
-		processing begun of material:  palette.021
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.007
-		processing begun of material:  palette.022
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.008
-		processing begun of material:  palette.023
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.009
-		processing begun of material:  palette.024
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.010
-		processing begun of material:  palette.025
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.011
-		processing begun of material:  palette.026
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.012
-		processing begun of material:  palette.027
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.013
-		processing begun of material:  palette.028
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.014
-		processing begun of material:  palette.029
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.015
-		processing begun of material:  palette.030
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.016
-		processing begun of material:  palette.031
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.017
-		processing begun of material:  palette.032
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.018
-		processing begun of material:  palette.033
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.019
-		processing begun of material:  palette.034
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.020
-		processing begun of material:  palette.035
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.021
-		processing begun of material:  palette.036
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.022
-		processing begun of material:  palette.037
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.023
-		processing begun of material:  palette.038
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.024
-		processing begun of material:  palette.039
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.025
-		processing begun of material:  palette.040
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.026
-		processing begun of material:  palette.041
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.027
-		processing begun of material:  palette.042
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.028
-		processing begun of material:  palette.043
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.029
-		processing begun of material:  palette.044
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.030
-		processing begun of material:  palette.045
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.031
-		processing begun of material:  palette.046
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.032
-		processing begun of material:  palette.047
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.033
-		processing begun of material:  palette.048
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.034
-		processing begun of material:  palette.049
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.035
-		processing begun of material:  palette.050
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.036
-		processing begun of material:  palette.051
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.037
-		processing begun of material:  palette.052
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.038
-		processing begun of material:  palette.053
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.039
-		processing begun of material:  palette.054
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.040
-		processing begun of material:  palette.055
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.041
-		processing begun of material:  palette.056
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.042
-		processing begun of material:  palette.057
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.043
-		processing begun of material:  palette.058
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.044
-		processing begun of material:  palette.059
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.045
-		processing begun of material:  palette.060
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.046
-		processing begun of material:  palette.061
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.047
-		processing begun of material:  palette.062
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.048
-		processing begun of material:  palette.063
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.049
-		processing begun of material:  palette.064
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.050
-		processing begun of material:  palette.065
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.051
-		processing begun of material:  palette.066
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.052
-		processing begun of material:  palette.067
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.053
-		processing begun of material:  palette.068
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  desk_chair.054
-		processing begun of material:  palette.069
-			processing texture er_tisch_verl_105_4er_arbeitsplatz_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  504
-		num normals        :  504
-		num tangents       :  2016
-		num uvs            :  1008
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  292
-	processing begun of mesh:  dining_table
-		processing begun of material:  palette.087
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.001
-		processing begun of material:  palette.088
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.002
-		processing begun of material:  palette.089
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.003
-		processing begun of material:  palette.090
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.004
-		processing begun of material:  palette.091
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
 	processing begun of mesh:  dining_table.005
-		processing begun of material:  palette.092
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.006
-		processing begun of material:  palette.093
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.007
-		processing begun of material:  palette.094
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.008
-		processing begun of material:  palette.095
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.009
-		processing begun of material:  palette.096
-			processing texture dice_2og_58_4er_esstisch
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  120
-		num normals        :  120
-		num tangents       :  480
-		num uvs            :  240
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  76
-	processing begun of mesh:  dining_table.010
-		processing begun of material:  palette.097
-			processing texture dice_2og_58_4er_esstisch
+		processing begun of material:  vox_palette
+			processing texture dice_2og_0
 				texture type:  diffuseTexture, mapped using: "UVMap"
 		Custom split normals with tangents being used
 		num positions      :  120
@@ -1072,9 +169,8 @@ Exporter version: 2.80.0, Blender version: 2.90.1
 		num colors         :  0
 		num triangles      :  76
 	processing begun of mesh:  hot spot.001
-		processing begun of material:  palette.086
-			processing texture dice_2og_13_hot_spot
-				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
 		Custom split normals with tangents being used
 		num positions      :  5845
 		num normals        :  5845
@@ -1083,166 +179,20 @@ Exporter version: 2.80.0, Blender version: 2.90.1
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  3594
-	processing begun of mesh:  lab_table
-		processing begun of material:  palette.075
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.001
-		processing begun of material:  palette.076
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.002
-		processing begun of material:  palette.077
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.003
-		processing begun of material:  palette.078
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.004
-		processing begun of material:  palette.079
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.005
-		processing begun of material:  palette.080
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.006
-		processing begun of material:  palette.081
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.007
-		processing begun of material:  palette.082
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.008
-		processing begun of material:  palette.083
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  lab_table.009
-		processing begun of material:  palette.084
-			processing texture er_tisch_verl_26_lab_tisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  96
-		num normals        :  96
-		num tangents       :  384
-		num uvs            :  192
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  60
-	processing begun of mesh:  pink_think_tank
-		processing begun of material:  palette.134
-			processing texture dice_2og_36_pink_think_tanks
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  155
-		num normals        :  155
-		num tangents       :  620
-		num uvs            :  310
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  pink_think_tank.001
-		processing begun of material:  palette.135
-			processing texture dice_2og_36_pink_think_tanks
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  155
-		num normals        :  155
-		num tangents       :  620
-		num uvs            :  310
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
 	processing begun of mesh:  silent_room_table
-		processing begun of material:  palette.074
-			processing texture er_tisch_verl_1_blaues_sofa_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
 		Custom split normals with tangents being used
-		num positions      :  484
-		num normals        :  484
-		num tangents       :  1936
-		num uvs            :  968
+		num positions      :  243
+		num normals        :  243
+		num tangents       :  972
+		num uvs            :  486
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  296
+		num triangles      :  148
 	processing begun of mesh:  standup meeting
-		processing begun of material:  palette.073
-			processing texture er_tisch_verl_39_standup_meeting_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
 		Custom split normals with tangents being used
 		num positions      :  1532
 		num normals        :  1532
@@ -1251,442 +201,9 @@ Exporter version: 2.80.0, Blender version: 2.90.1
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  948
-	processing begun of mesh:  dining_chair.001
-		processing begun of material:  palette.098
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.002
-		processing begun of material:  palette.099
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.003
-		processing begun of material:  palette.100
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.004
-		processing begun of material:  palette.101
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.005
-		processing begun of material:  palette.102
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.006
-		processing begun of material:  palette.103
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.007
-		processing begun of material:  palette.104
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.008
-		processing begun of material:  palette.105
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.009
-		processing begun of material:  palette.106
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.010
-		processing begun of material:  palette.107
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.011
-		processing begun of material:  palette.108
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.012
-		processing begun of material:  palette.109
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.013
-		processing begun of material:  palette.110
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.014
-		processing begun of material:  palette.111
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.015
-		processing begun of material:  palette.112
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.016
-		processing begun of material:  palette.113
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.017
-		processing begun of material:  palette.114
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.018
-		processing begun of material:  palette.115
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.019
-		processing begun of material:  palette.116
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.020
-		processing begun of material:  palette.117
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.021
-		processing begun of material:  palette.118
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.022
-		processing begun of material:  palette.119
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.023
-		processing begun of material:  palette.120
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.024
-		processing begun of material:  palette.121
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.025
-		processing begun of material:  palette.122
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.026
-		processing begun of material:  palette.123
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.027
-		processing begun of material:  palette.124
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.028
-		processing begun of material:  palette.125
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.029
-		processing begun of material:  palette.126
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.030
-		processing begun of material:  palette.127
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.031
-		processing begun of material:  palette.128
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.032
-		processing begun of material:  palette.129
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.033
-		processing begun of material:  palette.130
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.034
-		processing begun of material:  palette.131
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair.035
-		processing begun of material:  palette.132
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
-	processing begun of mesh:  dining_chair
-		processing begun of material:  palette.133
-			processing texture er_tisch_verl_45_stuhl_esstisch_4
-				texture type:  diffuseTexture, mapped using: "UVMap"
-		Custom split normals with tangents being used
-		num positions      :  132
-		num normals        :  132
-		num tangents       :  528
-		num uvs            :  264
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  88
 	processing begun of mesh:  green_divider
-		processing begun of material:  palette.136
-			processing texture dice_2og_34_green_divider
-				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
 		Custom split normals with tangents being used
 		num positions      :  794
 		num normals        :  794
@@ -1696,9 +213,8 @@ Exporter version: 2.80.0, Blender version: 2.90.1
 		num colors         :  0
 		num triangles      :  508
 	processing begun of mesh:  green_sofa
-		processing begun of material:  palette.137
-			processing texture dice_2og_35_green_sofa
-				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
 		Custom split normals with tangents being used
 		num positions      :  92
 		num normals        :  92
@@ -1707,237 +223,944 @@ Exporter version: 2.80.0, Blender version: 2.90.1
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  56
-	processing begun of mesh:  window
-		processing begun of material:  Material.001
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-					WARNING: Texture is not mapped as UV or UV2, assigned 1
-			bake time:  0 min, 2.5396 secs
-		num positions      :  173
-		num normals        :  173
-		num tangents       :  0
-		num uvs            :  346
+	processing begun of mesh:  standup_divider
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  792
+		num normals        :  792
+		num tangents       :  3168
+		num uvs            :  1584
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  80
-	processing begun of mesh:  window.002
-		processing begun of material:  Material.006
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.005
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_002_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.7811 secs
-		num positions      :  173
-		num normals        :  173
-		num tangents       :  0
-		num uvs            :  346
+		num triangles      :  508
+	processing begun of mesh:  dining_table.001
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  109
+		num normals        :  109
+		num tangents       :  436
+		num uvs            :  218
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  80
+		num triangles      :  76
+	processing begun of mesh:  dining_table.002
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  109
+		num normals        :  109
+		num tangents       :  436
+		num uvs            :  218
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  dining_table.003
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  109
+		num normals        :  109
+		num tangents       :  436
+		num uvs            :  218
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  dining_table.004
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  120
+		num normals        :  120
+		num tangents       :  480
+		num uvs            :  240
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  dining_table.006
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  109
+		num normals        :  109
+		num tangents       :  436
+		num uvs            :  218
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  dining_table.007
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  109
+		num normals        :  109
+		num tangents       :  436
+		num uvs            :  218
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  dining_table.008
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  120
+		num normals        :  120
+		num tangents       :  480
+		num uvs            :  240
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  stool_tool.001
+		processing begun of material:  stool_tool_red
+		num positions      :  66
+		num normals        :  66
+		num tangents       :  0
+		num uvs            :  132
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  24
+	processing begun of mesh:  lab_table.004
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  96
+		num normals        :  96
+		num tangents       :  384
+		num uvs            :  192
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  60
+	processing begun of mesh:  desk_chair.001
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  504
+		num normals        :  504
+		num tangents       :  2016
+		num uvs            :  1008
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  292
+	processing begun of mesh:  dancing_wall.001
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  341
+		num normals        :  341
+		num tangents       :  1364
+		num uvs            :  682
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  188
+	processing begun of mesh:  pink_think_tank.001
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  155
+		num normals        :  155
+		num tangents       :  620
+		num uvs            :  310
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  88
+	processing begun of mesh:  lab_chair.004
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  132
+		num normals        :  132
+		num tangents       :  528
+		num uvs            :  264
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  88
+	processing begun of mesh:  joyn_desk
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  709
+		num normals        :  709
+		num tangents       :  2836
+		num uvs            :  1418
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  468
+	processing begun of mesh:  joyn_chair
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  306
+		num normals        :  306
+		num tangents       :  1224
+		num uvs            :  612
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  192
+	processing begun of mesh:  black_round_carpet
+		processing begun of material:  black_carpet
+		num positions      :  309
+		num normals        :  309
+		num tangents       :  0
+		num uvs            :  618
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  124
+	processing begun of mesh:  blaues sofa.001
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  192
+		num uvs            :  96
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  Cylinder.003
+		processing begun of material:  red_carpet
+		num positions      :  309
+		num normals        :  309
+		num tangents       :  0
+		num uvs            :  618
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  124
+	processing begun of mesh:  dining_divider
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  1054
+		num normals        :  1054
+		num tangents       :  4216
+		num uvs            :  2108
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  668
+	processing begun of mesh:  fast_meeting_sofa
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  193
+		num normals        :  193
+		num tangents       :  772
+		num uvs            :  386
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  112
+	processing begun of mesh:  joyn_qubo
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  203
+		num normals        :  203
+		num tangents       :  812
+		num uvs            :  406
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  120
+	processing begun of mesh:  ne_qubo
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  172
+		num normals        :  172
+		num tangents       :  688
+		num uvs            :  344
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  104
+	processing begun of mesh:  meeting_carpet
+		processing begun of material:  blue_carpet
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  meeting_table
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  120
+		num normals        :  120
+		num tangents       :  480
+		num uvs            :  240
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  76
+	processing begun of mesh:  stand_up_carpet
+		processing begun of material:  pink_carpet
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Cylinder
+		processing begun of material:  blue_carpet
+		registered as also a user of material:  blue_carpet
+		num positions      :  309
+		num normals        :  309
+		num tangents       :  0
+		num uvs            :  618
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  124
+	processing begun of mesh:  desk_cluster.004
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  1014
+		num normals        :  1014
+		num tangents       :  4056
+		num uvs            :  2028
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  668
+	processing begun of mesh:  desk_cluster.005
+		mesh is an instance of :  desk_cluster.004.  Processing halted.
+	processing begun of mesh:  desk_cluster.006
+		mesh is an instance of :  desk_cluster.004.  Processing halted.
+	processing begun of mesh:  desk_cluster.007
+		mesh is an instance of :  desk_cluster.004.  Processing halted.
+	processing begun of mesh:  desk_cluster.008
+		mesh is an instance of :  desk_cluster.004.  Processing halted.
+	processing begun of mesh:  desk_chair.002
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.003
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.004
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.007
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.008
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.009
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.010
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.011
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.012
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.013
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.014
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.015
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.016
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.017
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.018
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.019
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.020
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.021
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.022
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.023
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.024
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.025
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.026
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.029
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.030
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.031
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.032
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_cluster.009
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  966
+		num normals        :  966
+		num tangents       :  3864
+		num uvs            :  1932
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  640
+	processing begun of mesh:  desk_cluster.010
+		mesh is an instance of :  desk_cluster.009.  Processing halted.
+	processing begun of mesh:  desk_chair.033
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.034
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.035
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.036
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.037
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.038
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.039
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.040
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_cluster.011
+		mesh is an instance of :  desk_cluster.004.  Processing halted.
+	processing begun of mesh:  desk_cluster.012
+		mesh is an instance of :  desk_cluster.004.  Processing halted.
+	processing begun of mesh:  desk_cluster.013
+		mesh is an instance of :  desk_cluster.009.  Processing halted.
+	processing begun of mesh:  desk_cluster.014
+		mesh is an instance of :  desk_cluster.009.  Processing halted.
+	processing begun of mesh:  desk_chair.041
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.042
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.043
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.044
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.045
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.046
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.047
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.048
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.049
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.050
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.051
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.052
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.053
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.054
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.055
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.056
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  dancing_wall.002
+		mesh is an instance of :  dancing_wall.001.  Processing halted.
+	processing begun of mesh:  dancing_wall.003
+		mesh is an instance of :  dancing_wall.001.  Processing halted.
+	processing begun of mesh:  dancing_wall.004
+		mesh is an instance of :  dancing_wall.001.  Processing halted.
+	processing begun of mesh:  lab_table.001
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_table.002
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_table.003
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_table.005
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_table.006
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_table.007
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_table.008
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_table.009
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_table.010
+		mesh is an instance of :  lab_table.004.  Processing halted.
+	processing begun of mesh:  lab_chair.001
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.002
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.003
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  stool_tool.002
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  stool_tool.003
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  stool_tool.004
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  stool_tool.005
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  stool_tool.006
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  stool_tool.007
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  stool_tool.008
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  stool_tool.009
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  stool_tool.010
+		mesh is an instance of :  stool_tool.001.  Processing halted.
+	processing begun of mesh:  lab_chair.005
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.006
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.007
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.008
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.009
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.010
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.011
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  joyn_chair.001
+		mesh is an instance of :  joyn_chair.  Processing halted.
+	processing begun of mesh:  joyn_chair.002
+		mesh is an instance of :  joyn_chair.  Processing halted.
+	processing begun of mesh:  joyn_chair.003
+		mesh is an instance of :  joyn_chair.  Processing halted.
+	processing begun of mesh:  joyn_chair.004
+		mesh is an instance of :  joyn_chair.  Processing halted.
+	processing begun of mesh:  joyn_chair.005
+		mesh is an instance of :  joyn_chair.  Processing halted.
+	processing begun of mesh:  pink_think_tank.002
+		mesh is an instance of :  pink_think_tank.001.  Processing halted.
+	processing begun of mesh:  silent_room_table.001
+		mesh is an instance of :  silent_room_table.  Processing halted.
+	processing begun of mesh:  blaues sofa.002
+		mesh is an instance of :  blaues sofa.001.  Processing halted.
+	processing begun of mesh:  fast_meeting_sofa.001
+		mesh is an instance of :  fast_meeting_sofa.  Processing halted.
+	processing begun of mesh:  lab_chair.012
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.013
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.014
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.015
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.016
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.017
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.018
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.019
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.020
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.021
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.022
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.023
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.024
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.025
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.026
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.027
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.028
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.029
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.030
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.031
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.032
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.033
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.034
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.035
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.036
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.037
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.038
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.039
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.040
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.041
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.042
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.043
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.044
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.045
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.046
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.047
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.048
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.049
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.050
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.051
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.052
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.053
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.054
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  lab_chair.055
+		mesh is an instance of :  lab_chair.004.  Processing halted.
+	processing begun of mesh:  black_round_carpet.001
+		mesh is an instance of :  black_round_carpet.  Processing halted.
+	processing begun of mesh:  desk_chair.005
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.006
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.027
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  desk_chair.028
+		mesh is an instance of :  desk_chair.001.  Processing halted.
+	processing begun of mesh:  monitor
+		processing begun of material:  monitor
+		processing begun of material:  monitor_screen
+		processing begun of multimaterial:  dice.Multimaterial#0
+		num positions      :  564
+		num normals        :  564
+		num tangents       :  0
+		num uvs            :  1128
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  248
+	processing begun of mesh:  monitor.001
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  monitor.002
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  monitor.003
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  desk_cluster_ext
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  646
+		num normals        :  646
+		num tangents       :  2584
+		num uvs            :  1292
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  428
+	processing begun of mesh:  desk_cluster_ext.001
+		mesh is an instance of :  desk_cluster_ext.  Processing halted.
+	processing begun of mesh:  monitor.004
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  monitor.005
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  monitor.006
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  monitor.007
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  desk_cluster
+		processing begun of material:  vox_palette
+		registered as also a user of material:  vox_palette
+		Custom split normals with tangents being used
+		num positions      :  598
+		num normals        :  598
+		num tangents       :  2392
+		num uvs            :  1196
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  400
+	processing begun of mesh:  monitor.008
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  monitor.009
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  monitor.010
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  monitor.011
+		mesh is an instance of :  monitor.  Processing halted.
+	processing begun of mesh:  Leinwand
+		processing begun of material:  leinwand
+		num positions      :  31
+		num normals        :  31
+		num tangents       :  0
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
 	processing begun of mesh:  window.001
-		processing begun of material:  Material.008
+		processing begun of material:  window_glass
 			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
 			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.007
+		processing begun of material:  window_frame
 			Baking texture, type: DIFFUSE, mapped using: BakingUV
 			processing texture window_001_baked_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.8396 secs
-		num positions      :  207
-		num normals        :  207
+			bake time:  0 min, 17.8914 secs
+		num positions      :  514
+		num normals        :  514
 		num tangents       :  0
-		num uvs            :  414
+		num uvs            :  1028
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  100
-	processing begun of mesh:  window.003
-		processing begun of material:  Material.010
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.009
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_003_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.8303 secs
-		num positions      :  172
-		num normals        :  172
-		num tangents       :  0
-		num uvs            :  344
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  80
-	processing begun of mesh:  window.005
-		processing begun of material:  Material.012
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.011
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_005_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.8777 secs
-		num positions      :  172
-		num normals        :  172
-		num tangents       :  0
-		num uvs            :  344
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  80
-	processing begun of mesh:  window.004
-		processing begun of material:  Material.014
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.013
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_004_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.3808 secs
-		num positions      :  173
-		num normals        :  173
-		num tangents       :  0
-		num uvs            :  346
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  80
-	processing begun of mesh:  window.007
-		processing begun of material:  Material.016
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.015
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_007_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.3827 secs
-		num positions      :  173
-		num normals        :  173
-		num tangents       :  0
-		num uvs            :  346
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  80
-	processing begun of mesh:  window.006
-		processing begun of material:  Material.018
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.017
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_006_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.9318 secs
-		num positions      :  208
-		num normals        :  208
-		num tangents       :  0
-		num uvs            :  416
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  100
-	processing begun of mesh:  window.009
-		processing begun of material:  Material.020
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.019
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_009_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.9295 secs
-		num positions      :  193
-		num normals        :  193
-		num tangents       :  0
-		num uvs            :  386
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  96
-	processing begun of mesh:  window.008
-		processing begun of material:  Material.022
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.021
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_008_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.9465 secs
-		num positions      :  193
-		num normals        :  193
-		num tangents       :  0
-		num uvs            :  386
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  96
-	processing begun of mesh:  window.011
-		processing begun of material:  Material.024
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.023
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_011_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 2.2862 secs
-		num positions      :  172
-		num normals        :  172
-		num tangents       :  0
-		num uvs            :  344
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  80
-	processing begun of mesh:  window.010
-		processing begun of material:  Material.026
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.025
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture window_010_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 3.1946 secs
-		num positions      :  172
-		num normals        :  172
-		num tangents       :  0
-		num uvs            :  344
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  80
-	processing begun of mesh:  frames.012
-		processing begun of material:  Material.028
-			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
-			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.027
-			Baking texture, type: DIFFUSE, mapped using: BakingUV
-			processing texture frames_012_baked_DIFFUSE
-				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 3.9672 secs
-		num positions      :  173
-		num normals        :  173
-		num tangents       :  0
-		num uvs            :  346
-		num uvs2           :  0
-		num colors         :  0
-		num triangles      :  80
+		num triangles      :  238
 	processing begun of mesh:  window.012
-		processing begun of material:  Material.030
+		processing begun of material:  window_glass
 			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
 			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
-		processing begun of material:  Material.029
+		processing begun of material:  window_frame
 			Baking texture, type: DIFFUSE, mapped using: BakingUV
 			processing texture window_012_baked_DIFFUSE
 				texture type:  diffuseTexture, mapped using: "BakingUV"
-			bake time:  0 min, 3.2686 secs
-		num positions      :  172
-		num normals        :  172
+			bake time:  0 min, 16.5933 secs
+		num positions      :  211
+		num normals        :  211
 		num tangents       :  0
-		num uvs            :  344
+		num uvs            :  422
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  80
+		num triangles      :  96
+	processing begun of mesh:  window.013
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_013_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 16.7356 secs
+		num positions      :  211
+		num normals        :  211
+		num tangents       :  0
+		num uvs            :  422
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  96
+	processing begun of mesh:  window.014
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_014_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 21.1832 secs
+		num positions      :  210
+		num normals        :  210
+		num tangents       :  0
+		num uvs            :  420
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  96
+	processing begun of mesh:  window.015
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_015_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 22.4218 secs
+		num positions      :  211
+		num normals        :  211
+		num tangents       :  0
+		num uvs            :  422
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  96
+	processing begun of mesh:  window.002
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_002_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 20.3454 secs
+		num positions      :  513
+		num normals        :  513
+		num tangents       :  0
+		num uvs            :  1026
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.003
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_003_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 20.6021 secs
+		num positions      :  512
+		num normals        :  512
+		num tangents       :  0
+		num uvs            :  1024
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.004
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_004_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 20.955 secs
+		num positions      :  512
+		num normals        :  512
+		num tangents       :  0
+		num uvs            :  1024
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.005
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_005_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 22.2993 secs
+		num positions      :  512
+		num normals        :  512
+		num tangents       :  0
+		num uvs            :  1024
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.006
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_006_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 19.0196 secs
+		num positions      :  517
+		num normals        :  517
+		num tangents       :  0
+		num uvs            :  1034
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.007
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_007_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 24.8418 secs
+		num positions      :  518
+		num normals        :  518
+		num tangents       :  0
+		num uvs            :  1036
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.008
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_008_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 17.6067 secs
+		num positions      :  517
+		num normals        :  517
+		num tangents       :  0
+		num uvs            :  1034
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.009
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_009_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 17.1408 secs
+		num positions      :  515
+		num normals        :  515
+		num tangents       :  0
+		num uvs            :  1030
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.010
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_010_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 16.8231 secs
+		num positions      :  515
+		num normals        :  515
+		num tangents       :  0
+		num uvs            :  1030
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.011
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_011_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 20.1817 secs
+		num positions      :  516
+		num normals        :  516
+		num tangents       :  0
+		num uvs            :  1032
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  window.016
+		processing begun of material:  window_glass
+			WARNING: unsupported node type(ShaderNodeBsdfGlass) will trigger baking
+			WARNING: unsupported node type(ShaderNodeAddShader) will trigger baking
+		processing begun of material:  window_frame
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+			processing texture window_016_baked_DIFFUSE
+				texture type:  diffuseTexture, mapped using: "BakingUV"
+			bake time:  0 min, 17.6753 secs
+		num positions      :  514
+		num normals        :  514
+		num tangents       :  0
+		num uvs            :  1028
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
 	processing begun of mesh:  Walls
 		processing begun of material:  Material.004
-		num positions      :  5664
-		num normals        :  5664
+		processing begun of material:  wall_lindgruen
+		processing begun of material:  wall_blue
+		processing begun of material:  wall_grey
+		processing begun of multimaterial:  dice.Multimaterial#1
+		num positions      :  5740
+		num normals        :  5740
 		num tangents       :  0
-		num uvs            :  11328
+		num uvs            :  11480
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  2652
@@ -1946,176 +1169,139 @@ Exporter version: 2.80.0, Blender version: 2.90.1
 		processing begun of material:  weisse teppichkachel
 		processing begun of material:  hellgraue teppichkachel
 		processing begun of material:  dunkelgraue teppichkachel
-		processing begun of multimaterial:  dice.Multimaterial#1
-		num positions      :  318
-		num normals        :  318
+		processing begun of material:  blue_vinyl
+		processing begun of multimaterial:  dice.Multimaterial#2
+		num positions      :  278
+		num normals        :  278
 		num tangents       :  0
-		num uvs            :  636
+		num uvs            :  556
 		num uvs2           :  0
 		num colors         :  0
-		num triangles      :  145
+		num triangles      :  116
 		WARNING: # of 0 area faces found:  2
 	processing begun of light (DIRECTIONAL):  sun high
 	processing begun of light (DIRECTIONAL):  sun low
+	processing begun of light (HEMI FROM AREA):  Area
+	processing begun of light (HEMI FROM AREA):  Area.001
+	processing begun of light (HEMI FROM AREA):  Area.002
+	processing begun of light (HEMI FROM AREA):  Area.003
+	processing begun of light (HEMI FROM AREA):  Area.004
+	processing begun of light (HEMI FROM AREA):  Area.005
+	processing begun of light (HEMI FROM AREA):  Area.006
+	processing begun of light (HEMI FROM AREA):  Area.007
+	processing begun of light (HEMI FROM AREA):  Area.008
+	processing begun of light (HEMI FROM AREA):  Area.009
+	processing begun of light (HEMI FROM AREA):  Area.010
+	processing begun of light (HEMI FROM AREA):  Area.011
+	processing begun of light (HEMI FROM AREA):  Area.012
+	processing begun of light (HEMI FROM AREA):  Area.013
+	processing begun of light (HEMI FROM AREA):  Area.014
+	processing begun of light (HEMI FROM AREA):  Area.015
+	processing begun of light (HEMI FROM AREA):  Area.016
+	processing begun of light (HEMI FROM AREA):  Area.017
+	processing begun of light (HEMI FROM AREA):  Area.018
+	processing begun of light (HEMI FROM AREA):  Area.019
+	processing begun of light (HEMI FROM AREA):  Area.020
+	processing begun of light (HEMI FROM AREA):  Area.021
+	processing begun of light (HEMI FROM AREA):  Area.022
+	processing begun of light (HEMI FROM AREA):  Area.023
+	processing begun of light (HEMI FROM AREA):  Area.024
+	processing begun of light (HEMI FROM AREA):  Area.025
+	processing begun of light (HEMI FROM AREA):  Area.026
+	processing begun of light (HEMI FROM AREA):  Area.027
+	processing begun of light (SPOT):  Spot
+	processing begun of light (SPOT):  Spot.001
+	processing begun of light (SPOT):  Spot.002
+	processing begun of light (SPOT):  Spot.003
+	processing begun of light (SPOT):  Spot.004
+	processing begun of light (SPOT):  Spot.005
+	processing begun of light (SPOT):  Spot.006
+	processing begun of light (SPOT):  Spot.007
+	processing begun of light (SPOT):  Spot.008
+	processing begun of light (HEMI FROM AREA):  Area.028
+	processing begun of light (HEMI FROM AREA):  Area.029
+	processing begun of light (HEMI FROM AREA):  Area.030
+	processing begun of light (HEMI FROM AREA):  Area.031
+	processing begun of light (HEMI FROM AREA):  Area.032
+	processing begun of light (HEMI FROM AREA):  Area.033
+	processing begun of light (HEMI FROM AREA):  Area.034
+	processing begun of light (HEMI FROM AREA):  Area.035
+	processing begun of light (HEMI FROM AREA):  Area.036
+	processing begun of light (HEMI FROM AREA):  Area.037
+	processing begun of light (HEMI FROM AREA):  Area.038
+	processing begun of light (SPOT):  Spot.009
+	processing begun of light (SPOT):  Spot.010
 ========= Writing of JSON file started =========
-	writing mesh:  Plane
-	writing mesh:  Plane.001
-	writing mesh:  Plane.002
-	writing mesh:  Plane.003
-	writing mesh:  desk_cluster
-	writing mesh:  desk_cluster.001
-	writing mesh:  desk_cluster.002
-	writing mesh:  desk_cluster.003
-	writing mesh:  desk_cluster.004
-	writing mesh:  desk_cluster.005
-	writing mesh:  desk_cluster.006
-	writing mesh:  desk_cluster.007
-	writing mesh:  desk_cluster.008
-	writing mesh:  desk_cluster.009
-	writing mesh:  desk_cluster.010
-	writing mesh:  desk_cluster.011
-	writing mesh:  desk_cluster.012
-	writing mesh:  desk_cluster.013
-	writing mesh:  desk_cluster.014
-	writing mesh:  desk_chair
-	writing mesh:  desk_chair.001
-	writing mesh:  dancing_wall
-	writing mesh:  dancing_wall.001
-	writing mesh:  dancing_wall.002
-	writing mesh:  dancing_wall.003
-	writing mesh:  desk_chair.002
-	writing mesh:  desk_chair.003
-	writing mesh:  desk_chair.004
-	writing mesh:  desk_chair.005
-	writing mesh:  desk_chair.006
-	writing mesh:  desk_chair.007
-	writing mesh:  desk_chair.008
-	writing mesh:  desk_chair.009
-	writing mesh:  desk_chair.010
-	writing mesh:  desk_chair.011
-	writing mesh:  desk_chair.012
-	writing mesh:  desk_chair.013
-	writing mesh:  desk_chair.014
-	writing mesh:  desk_chair.015
-	writing mesh:  desk_chair.016
-	writing mesh:  desk_chair.017
-	writing mesh:  desk_chair.018
-	writing mesh:  desk_chair.019
-	writing mesh:  desk_chair.020
-	writing mesh:  desk_chair.021
-	writing mesh:  desk_chair.022
-	writing mesh:  desk_chair.023
-	writing mesh:  desk_chair.024
-	writing mesh:  desk_chair.025
-	writing mesh:  desk_chair.026
-	writing mesh:  desk_chair.027
-	writing mesh:  desk_chair.028
-	writing mesh:  desk_chair.029
-	writing mesh:  desk_chair.030
-	writing mesh:  desk_chair.031
-	writing mesh:  desk_chair.032
-	writing mesh:  desk_chair.033
-	writing mesh:  desk_chair.034
-	writing mesh:  desk_chair.035
-	writing mesh:  desk_chair.036
-	writing mesh:  desk_chair.037
-	writing mesh:  desk_chair.038
-	writing mesh:  desk_chair.039
-	writing mesh:  desk_chair.040
-	writing mesh:  desk_chair.041
-	writing mesh:  desk_chair.042
-	writing mesh:  desk_chair.043
-	writing mesh:  desk_chair.044
-	writing mesh:  desk_chair.045
-	writing mesh:  desk_chair.046
-	writing mesh:  desk_chair.047
-	writing mesh:  desk_chair.048
-	writing mesh:  desk_chair.049
-	writing mesh:  desk_chair.050
-	writing mesh:  desk_chair.051
-	writing mesh:  desk_chair.052
-	writing mesh:  desk_chair.053
-	writing mesh:  desk_chair.054
-	writing mesh:  dining_table
+	writing mesh:  curtain
+	writing mesh:  curtain.001
+	writing mesh:  curtain.002
+	writing mesh:  curtain.004
+	writing mesh:  curtain.005
+	writing mesh:  curtain.006
+	writing mesh:  curtain.007
+	writing mesh:  curtain.008
+	writing mesh:  curtain.009
+	writing mesh:  curtain.010
+	writing mesh:  curtain.011
+	writing mesh:  curtain.012
+	writing mesh:  curtain.013
+	writing mesh:  dining_table.005
+	writing mesh:  hot spot.001
+	writing mesh:  silent_room_table
+	writing mesh:  standup meeting
+	writing mesh:  green_divider
+	writing mesh:  green_sofa
+	writing mesh:  standup_divider
 	writing mesh:  dining_table.001
 	writing mesh:  dining_table.002
 	writing mesh:  dining_table.003
 	writing mesh:  dining_table.004
-	writing mesh:  dining_table.005
 	writing mesh:  dining_table.006
 	writing mesh:  dining_table.007
 	writing mesh:  dining_table.008
-	writing mesh:  dining_table.009
-	writing mesh:  dining_table.010
-	writing mesh:  hot spot.001
-	writing mesh:  lab_table
-	writing mesh:  lab_table.001
-	writing mesh:  lab_table.002
-	writing mesh:  lab_table.003
+	writing mesh:  stool_tool.001
 	writing mesh:  lab_table.004
-	writing mesh:  lab_table.005
-	writing mesh:  lab_table.006
-	writing mesh:  lab_table.007
-	writing mesh:  lab_table.008
-	writing mesh:  lab_table.009
-	writing mesh:  pink_think_tank
+	writing mesh:  desk_chair.001
+	writing mesh:  dancing_wall.001
 	writing mesh:  pink_think_tank.001
-	writing mesh:  silent_room_table
-	writing mesh:  standup meeting
-	writing mesh:  dining_chair.001
-	writing mesh:  dining_chair.002
-	writing mesh:  dining_chair.003
-	writing mesh:  dining_chair.004
-	writing mesh:  dining_chair.005
-	writing mesh:  dining_chair.006
-	writing mesh:  dining_chair.007
-	writing mesh:  dining_chair.008
-	writing mesh:  dining_chair.009
-	writing mesh:  dining_chair.010
-	writing mesh:  dining_chair.011
-	writing mesh:  dining_chair.012
-	writing mesh:  dining_chair.013
-	writing mesh:  dining_chair.014
-	writing mesh:  dining_chair.015
-	writing mesh:  dining_chair.016
-	writing mesh:  dining_chair.017
-	writing mesh:  dining_chair.018
-	writing mesh:  dining_chair.019
-	writing mesh:  dining_chair.020
-	writing mesh:  dining_chair.021
-	writing mesh:  dining_chair.022
-	writing mesh:  dining_chair.023
-	writing mesh:  dining_chair.024
-	writing mesh:  dining_chair.025
-	writing mesh:  dining_chair.026
-	writing mesh:  dining_chair.027
-	writing mesh:  dining_chair.028
-	writing mesh:  dining_chair.029
-	writing mesh:  dining_chair.030
-	writing mesh:  dining_chair.031
-	writing mesh:  dining_chair.032
-	writing mesh:  dining_chair.033
-	writing mesh:  dining_chair.034
-	writing mesh:  dining_chair.035
-	writing mesh:  dining_chair
-	writing mesh:  green_divider
-	writing mesh:  green_sofa
-	writing mesh:  window
-	writing mesh:  window.002
+	writing mesh:  lab_chair.004
+	writing mesh:  joyn_desk
+	writing mesh:  joyn_chair
+	writing mesh:  black_round_carpet
+	writing mesh:  blaues sofa.001
+	writing mesh:  Cylinder.003
+	writing mesh:  dining_divider
+	writing mesh:  fast_meeting_sofa
+	writing mesh:  joyn_qubo
+	writing mesh:  ne_qubo
+	writing mesh:  meeting_carpet
+	writing mesh:  meeting_table
+	writing mesh:  stand_up_carpet
+	writing mesh:  Cylinder
+	writing mesh:  desk_cluster.004
+	writing mesh:  desk_cluster.009
+	writing mesh:  monitor
+	writing mesh:  desk_cluster_ext
+	writing mesh:  desk_cluster
+	writing mesh:  Leinwand
 	writing mesh:  window.001
-	writing mesh:  window.003
-	writing mesh:  window.005
-	writing mesh:  window.004
-	writing mesh:  window.007
-	writing mesh:  window.006
-	writing mesh:  window.009
-	writing mesh:  window.008
-	writing mesh:  window.011
-	writing mesh:  window.010
-	writing mesh:  frames.012
 	writing mesh:  window.012
+	writing mesh:  window.013
+	writing mesh:  window.014
+	writing mesh:  window.015
+	writing mesh:  window.002
+	writing mesh:  window.003
+	writing mesh:  window.004
+	writing mesh:  window.005
+	writing mesh:  window.006
+	writing mesh:  window.007
+	writing mesh:  window.008
+	writing mesh:  window.009
+	writing mesh:  window.010
+	writing mesh:  window.011
+	writing mesh:  window.016
 	writing mesh:  Walls
 	writing mesh:  Floor
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 44.9373 secs
+elapsed time:  5 min, 15.0416 secs
