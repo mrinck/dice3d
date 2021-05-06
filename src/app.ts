@@ -11,7 +11,9 @@ import {
     IShadowLight,
     DirectionalLight,
     PointLight,
-    Color4
+    Color4,
+    Texture,
+    StandardMaterial
 } from "@babylonjs/core";
 import "@babylonjs/loaders";
 
@@ -39,7 +41,7 @@ export class App {
         );
         this.camera.attachControl(this.canvas, false);
 
-        // Light
+        // HemisphericLight
 
         const hemisphericLight = new HemisphericLight(
             "hemispheric",
@@ -49,6 +51,7 @@ export class App {
         hemisphericLight.intensity = .8;
         hemisphericLight.diffuse = Color3.FromHexString("#FFECD7");
 
+        // Directional Light
 
         this.light = new DirectionalLight(
             "directional",
@@ -56,7 +59,7 @@ export class App {
             this.scene
         );
         this.light.diffuse = Color3.FromHexString("#FFECD7");
-        this.light.intensity = .9;
+        this.light.intensity = .8;
 
         // Scene
 
@@ -74,6 +77,7 @@ export class App {
                 // SHADOW
                 const shadowGen = new ShadowGenerator(4096, this.light as IShadowLight);
                 shadowGen.useBlurExponentialShadowMap = true;
+                shadowGen.useContactHardeningShadow = true;
 
                 const casterPrefixes = [
                     "obj",
@@ -95,14 +99,6 @@ export class App {
                 casters.forEach(mesh => {
                     shadowGen.addShadowCaster(mesh, true);
                 });
-
-                /*
-                const receivers = ["floor", "wall"];
-                receivers.forEach(receiver => {
-                    const node = scene.getNodeByID(receiver);
-                    node.getChildMeshes().forEach(mesh => mesh.receiveShadows = true);
-                });
-                */
 
                 const node = scene.getNodeByID("floor");
                 node.getChildMeshes().forEach(mesh => mesh.receiveShadows = true);
