@@ -75,8 +75,22 @@ export class App {
                 const shadowGen = new ShadowGenerator(4096, this.light as IShadowLight);
                 shadowGen.useBlurExponentialShadowMap = true;
 
-                const casters = scene.meshes.filter(mesh => mesh.id.startsWith("obj."));
-                casters.push(scene.getMeshByID("wall"));
+                const casterPrefixes = [
+                    "obj",
+                    "wall",
+                    "curtain",
+                    "door",
+                    "window"
+                ];
+                const casters = scene.meshes.filter(mesh => {
+                    let result = false;
+                    casterPrefixes.forEach(prefix => {
+                        if (mesh.id.startsWith(prefix)) {
+                            result = true;
+                        }
+                    });
+                    return result;
+                });
 
                 casters.forEach(mesh => {
                     shadowGen.addShadowCaster(mesh, true);
