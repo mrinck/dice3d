@@ -3,17 +3,13 @@ import {
     Engine,
     Scene,
     FreeCamera,
-    Light,
     Vector3,
     HemisphericLight,
     Color3,
     ShadowGenerator,
-    IShadowLight,
     DirectionalLight,
-    PointLight,
     Color4,
-    Texture,
-    StandardMaterial
+    UniversalCamera
 } from "@babylonjs/core";
 import "@babylonjs/loaders";
 
@@ -22,24 +18,31 @@ export class App {
     engine: Engine;
     scene: Scene;
     camera: FreeCamera;
-    light: Light;
+    light: DirectionalLight;
 
     constructor(canvasElementName: string) {
         this.canvas = document.getElementById(canvasElementName) as HTMLCanvasElement;
         this.engine = new Engine(this.canvas, true);
         this.scene = new Scene(this.engine);
-        // this.scene.debugLayer.show();
+
+        // Scene
 
         this.scene.clearColor = Color4.FromHexString("#ffffff");
 
         // Camera
 
-        this.camera = new FreeCamera(
+        this.camera = new UniversalCamera(
             "camera1",
-            new Vector3(0, 5, -10),
+            new Vector3(0, 40, -40),
             this.scene
         );
-        this.camera.attachControl(this.canvas, false);
+        this.camera.speed = .5;
+        this.camera.setTarget(Vector3.Zero());
+        this.camera.attachControl(this.canvas, true);
+        this.camera.keysUp = [38, 87];
+        this.camera.keysRight = [39, 68];
+        this.camera.keysDown = [40, 83];
+        this.camera.keysLeft = [37, 65];
 
         // HemisphericLight
 
@@ -55,13 +58,13 @@ export class App {
 
         this.light = new DirectionalLight(
             "directional",
-            new Vector3(10, -100, 10),
+            new Vector3(10, -100, -10),
             this.scene
         );
         this.light.diffuse = Color3.FromHexString("#FFECD7");
-        this.light.intensity = .8;
+        this.light.intensity = 1;
 
-        // Scene
+        // Scene onLoad
 
         SceneLoader.Append(
             "resources/",
@@ -69,15 +72,15 @@ export class App {
             this.scene,
             scene => {
                 // MATERIAL
-                const matGlass = scene.getMaterialByName("mat-glass");
-                matGlass.alphaMode = 7;
-                matGlass.alpha = .2;
-                matGlass.transparencyMode = 2;
+                const glass = scene.getMaterialByName("mat-glass");
+                glass.alphaMode = 7;
+                glass.alpha = .2;
+                glass.transparencyMode = 2;
 
                 // SHADOW
-                const shadowGen = new ShadowGenerator(4096, this.light as IShadowLight);
-                shadowGen.useBlurExponentialShadowMap = true;
-                shadowGen.useContactHardeningShadow = true;
+                const shadowGenerator = new ShadowGenerator(4096, this.light);
+                shadowGenerator.useBlurExponentialShadowMap = true;
+                shadowGenerator.blurKernel = 4;
 
                 const casterPrefixes = [
                     "obj",
@@ -86,22 +89,16 @@ export class App {
                     "door",
                     "window"
                 ];
-                const casters = scene.meshes.filter(mesh => {
-                    let result = false;
+                scene.meshes.forEach(mesh => {
                     casterPrefixes.forEach(prefix => {
                         if (mesh.id.startsWith(prefix)) {
-                            result = true;
+                            shadowGenerator.addShadowCaster(mesh, true);
                         }
                     });
-                    return result;
                 });
 
-                casters.forEach(mesh => {
-                    shadowGen.addShadowCaster(mesh, true);
-                });
-
-                const node = scene.getNodeByID("floor");
-                node.getChildMeshes().forEach(mesh => mesh.receiveShadows = true);
+                const floor = scene.getNodeByID("floor");
+                floor.getChildMeshes().forEach(mesh => mesh.receiveShadows = true);
             }
         );
     }
