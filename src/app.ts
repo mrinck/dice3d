@@ -29,20 +29,30 @@ export class App {
 
         this.scene.clearColor = Color4.FromHexString("#ffffff");
 
+        const assumedFramesPerSecond = 60;
+        const earthGravity = -9.81;
+        this.scene.gravity = new Vector3(0, earthGravity / assumedFramesPerSecond, 0);
+        this.scene.collisionsEnabled = true;
+
         // Camera
 
         this.camera = new UniversalCamera(
             "camera1",
-            new Vector3(0, 40, -40),
+            new Vector3(-9, 2, -2),
             this.scene
         );
-        this.camera.speed = .5;
-        this.camera.setTarget(Vector3.Zero());
-        this.camera.attachControl(this.canvas, true);
+        this.camera.speed = .2;
         this.camera.keysUp = [38, 87];
         this.camera.keysRight = [39, 68];
         this.camera.keysDown = [40, 83];
         this.camera.keysLeft = [37, 65];
+        this.camera.attachControl(this.canvas, true);
+
+        this.camera.ellipsoid = new Vector3(.5, .8, .5);
+        this.camera.checkCollisions = true;
+        this.camera.applyGravity = true;
+
+        
 
         // HemisphericLight
 
@@ -99,6 +109,20 @@ export class App {
 
                 const floor = scene.getNodeByID("floor");
                 floor.getChildMeshes().forEach(mesh => mesh.receiveShadows = true);
+
+                // COLLISIONS
+
+                const colliders = [
+                    "floor",
+                    "wall"
+                ]
+
+                colliders.forEach(collider => {
+                    const node = scene.getNodeByID(collider);
+                    node.getChildMeshes().forEach(mesh => {
+                        mesh.checkCollisions = true;
+                    });
+                });
             }
         );
     }
