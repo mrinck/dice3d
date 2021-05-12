@@ -9,7 +9,10 @@ import {
     ShadowGenerator,
     DirectionalLight,
     Color4,
-    UniversalCamera
+    UniversalCamera,
+    Camera,
+    Mesh,
+    StandardMaterial
 } from "@babylonjs/core";
 import "@babylonjs/loaders";
 
@@ -18,7 +21,6 @@ export class App {
     engine: Engine;
     scene: Scene;
     camera: FreeCamera;
-    light: DirectionalLight;
 
     constructor(canvasElementName: string) {
         this.canvas = document.getElementById(canvasElementName) as HTMLCanvasElement;
@@ -41,7 +43,7 @@ export class App {
             new Vector3(-9, 2, -2),
             this.scene
         );
-        this.camera.speed = .2;
+        // this.camera.speed = .2;
         this.camera.keysUp = [38, 87];
         this.camera.keysRight = [39, 68];
         this.camera.keysDown = [40, 83];
@@ -52,28 +54,6 @@ export class App {
         this.camera.ellipsoid = new Vector3(.5, .8, .5);
         this.camera.checkCollisions = true;
         this.camera.applyGravity = true;
-
-
-
-        // HemisphericLight
-
-        const hemisphericLight = new HemisphericLight(
-            "hemispheric",
-            new Vector3(0, 1, 0),
-            this.scene
-        );
-        hemisphericLight.intensity = .8;
-        hemisphericLight.diffuse = Color3.FromHexString("#FFECD7");
-
-        // Directional Light
-
-        this.light = new DirectionalLight(
-            "directional",
-            new Vector3(10, -100, -10),
-            this.scene
-        );
-        this.light.diffuse = Color3.FromHexString("#FFECD7");
-        this.light.intensity = 1;
 
         // Scene onLoad
 
@@ -94,8 +74,45 @@ export class App {
                     mesh.outlineColor = Color3.FromHexString("#000000");
                 });
 
+                // LIGHT
+
+                scene.lights.forEach(light => {
+                    light.intensity = .5;
+                });
+
+                // HemisphericLight
+
+                const hemisphericLight = new HemisphericLight(
+                    "hemispheric",
+                    new Vector3(0, 1, 0),
+                    this.scene
+                );
+                hemisphericLight.intensity = .8;
+                hemisphericLight.diffuse = Color3.FromHexString("#FFECD7");
+
+                // Directional DownLight
+
+                const downLight = new DirectionalLight(
+                    "directional",
+                    new Vector3(10, -100, -10),
+                    this.scene
+                );
+                downLight.diffuse = Color3.FromHexString("#FFECD7");
+                downLight.intensity = 1;
+
+                // Directional UpLight
+
+                const upLight = new DirectionalLight(
+                    "directional",
+                    new Vector3(0, 100, 0),
+                    this.scene
+                );
+                upLight.diffuse = Color3.FromHexString("#FFECD7");
+                upLight.intensity = .5;
+
                 // SHADOW
-                const shadowGenerator = new ShadowGenerator(4096, this.light);
+
+                const shadowGenerator = new ShadowGenerator(4096, downLight);
                 shadowGenerator.useBlurExponentialShadowMap = true;
                 shadowGenerator.blurKernel = 4;
 
@@ -131,8 +148,35 @@ export class App {
                         mesh.checkCollisions = true;
                     });
                 });
+
+                this.addGunSight(scene);
             }
         );
+    }
+
+    addGunSight(scene) {
+        if (scene.activeCameras.length === 0) {
+            scene.activeCameras.push(scene.activeCamera);
+        }
+        var secondCamera = new FreeCamera("GunSightCamera", new Vector3(0, 0, -50), scene);
+        secondCamera.mode = Camera.ORTHOGRAPHIC_CAMERA;
+        secondCamera.layerMask = 0x20000000;
+        scene.activeCameras.push(secondCamera);
+
+        const circle = Mesh.CreateSphere("c", 64, 5);
+        circle.position = new Vector3(0, 0, 0);
+        circle.renderOutline = true;
+        circle.outlineWidth = 0.5;
+        circle.outlineColor = new Color3(0, 0, 0);
+        circle.name = "gunSight";
+        circle.layerMask = 0x20000000;
+        circle.freezeWorldMatrix();
+
+        var mat = new StandardMaterial("emissive mat", scene);
+        mat.checkReadyOnlyOnce = true;
+        mat.emissiveColor = new Color3(1, 1, 1);
+
+        circle.material = mat;
     }
 
     render() {
