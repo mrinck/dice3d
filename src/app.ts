@@ -29,7 +29,7 @@ export class App {
 
         // Scene
 
-        this.scene.clearColor = Color4.FromHexString("#ffffff");
+        this.scene.clearColor = Color4.FromHexString("#7bd2f9");
 
         const assumedFramesPerSecond = 60;
         const earthGravity = -9.81;
@@ -43,7 +43,7 @@ export class App {
             new Vector3(-9, 2, -2),
             this.scene
         );
-        // this.camera.speed = .2;
+        this.camera.speed = .2;
         this.camera.keysUp = [38, 87];
         this.camera.keysRight = [39, 68];
         this.camera.keysDown = [40, 83];
@@ -70,7 +70,7 @@ export class App {
 
                 scene.meshes.forEach(mesh => {
                     mesh.renderOutline = true;
-                    mesh.outlineWidth = 0.005;
+                    mesh.outlineWidth = 0.007;
                     mesh.outlineColor = Color3.FromHexString("#000000");
                 });
 
@@ -150,6 +150,13 @@ export class App {
                 });
 
                 this.addGunSight(scene);
+
+                this.canvas.onclick = e => {
+                    if (!scene.getEngine().isPointerLock) {
+                        scene.getEngine().enterPointerlock();
+                    };
+                };
+                
             }
         );
     }
