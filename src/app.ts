@@ -47,12 +47,13 @@ export class App {
         this.camera.keysDown = [40, 83];
         this.camera.keysLeft = [37, 65];
         this.camera.attachControl(this.canvas, true);
+        this.camera.minZ = 0.1;
 
         this.camera.ellipsoid = new Vector3(.5, .8, .5);
         this.camera.checkCollisions = true;
         this.camera.applyGravity = true;
 
-        
+
 
         // HemisphericLight
 
@@ -87,6 +88,12 @@ export class App {
                 glass.alpha = .2;
                 glass.transparencyMode = 2;
 
+                scene.meshes.forEach(mesh => {
+                    mesh.renderOutline = true;
+                    mesh.outlineWidth = 0.005;
+                    mesh.outlineColor = Color3.FromHexString("#000000");
+                });
+
                 // SHADOW
                 const shadowGenerator = new ShadowGenerator(4096, this.light);
                 shadowGenerator.useBlurExponentialShadowMap = true;
@@ -114,7 +121,8 @@ export class App {
 
                 const colliders = [
                     "floor",
-                    "wall"
+                    "wall",
+                    "window"
                 ]
 
                 colliders.forEach(collider => {
