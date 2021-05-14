@@ -40,17 +40,18 @@ export class App {
 
         this.camera = new UniversalCamera(
             "camera1",
-            new Vector3(-9, 2, -2),
+            new Vector3(-9, 1.6, -2),
             this.scene
         );
-        this.camera.speed = .2;
+        this.camera.speed = .6;
         this.camera.keysUp = [38, 87];
         this.camera.keysRight = [39, 68];
         this.camera.keysDown = [40, 83];
         this.camera.keysLeft = [37, 65];
         this.camera.attachControl(this.canvas, true);
         this.camera.minZ = 0.1;
-
+        this.camera.inertia = 0.6;
+        this.camera.angularSensibility = 600;
         this.camera.ellipsoid = new Vector3(.5, .8, .5);
         this.camera.checkCollisions = true;
         this.camera.applyGravity = true;
@@ -87,7 +88,7 @@ export class App {
                     new Vector3(0, 1, 0),
                     this.scene
                 );
-                hemisphericLight.intensity = .8;
+                hemisphericLight.intensity = .7;
                 hemisphericLight.diffuse = Color3.FromHexString("#FFECD7");
 
                 // Directional DownLight
@@ -131,8 +132,18 @@ export class App {
                     });
                 });
 
-                const floor = scene.getNodeByID("floor");
-                floor.getChildMeshes().forEach(mesh => mesh.receiveShadows = true);
+                const shadowReceivers = [
+                    "floor",
+                    "carpet"
+                ];
+
+                scene.meshes.forEach(mesh => {
+                    shadowReceivers.forEach(prefix => {
+                        if (mesh.id.startsWith(prefix)) {
+                            mesh.receiveShadows = true;
+                        };
+                    });
+                });
 
                 // COLLISIONS
 
@@ -156,7 +167,7 @@ export class App {
                         scene.getEngine().enterPointerlock();
                     };
                 };
-                
+
             }
         );
     }
