@@ -51,7 +51,7 @@ export class App {
         this.camera.attachControl(this.canvas, true);
         this.camera.minZ = 0.1;
         this.camera.inertia = 0.6;
-        this.camera.angularSensibility = 600;
+        this.camera.angularSensibility = 1200;
         this.camera.ellipsoid = new Vector3(.5, .8, .5);
         this.camera.checkCollisions = true;
         this.camera.applyGravity = true;
