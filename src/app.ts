@@ -12,7 +12,9 @@ import {
     UniversalCamera,
     Camera,
     Mesh,
-    StandardMaterial
+    StandardMaterial,
+    RenderTargetTexture,
+    Material
 } from "@babylonjs/core";
 import "@babylonjs/loaders";
 
@@ -64,10 +66,10 @@ export class App {
             this.scene,
             scene => {
                 // MATERIAL
-                const glass = scene.getMaterialByName("mat-glass");
+                const glass = scene.getMaterialByName("mat_glass");
                 glass.alphaMode = 7;
                 glass.alpha = .2;
-                glass.transparencyMode = 2;
+                glass.transparencyMode = Material.MATERIAL_ALPHATESTANDBLEND;
 
                 scene.meshes.forEach(mesh => {
                     mesh.renderOutline = true;
@@ -78,7 +80,7 @@ export class App {
                 // LIGHT
 
                 scene.lights.forEach(light => {
-                    light.intensity = .5;
+                    light.intensity = .75;
                 });
 
                 // HemisphericLight
@@ -113,9 +115,12 @@ export class App {
 
                 // SHADOW
 
-                const shadowGenerator = new ShadowGenerator(4096, downLight);
-                shadowGenerator.useBlurExponentialShadowMap = true;
-                shadowGenerator.blurKernel = 4;
+                const shadowGenerator = new ShadowGenerator(2048, downLight);
+                shadowGenerator.usePercentageCloserFiltering = true;
+                // shadowGenerator.blurKernel = 4;
+                shadowGenerator.transparencyShadow = true;
+                shadowGenerator.enableSoftTransparentShadow = true;
+                shadowGenerator.getShadowMap().refreshRate = RenderTargetTexture.REFRESHRATE_RENDER_ONCE;
 
                 const casterPrefixes = [
                     "obj",
@@ -133,6 +138,7 @@ export class App {
                 });
 
                 const shadowReceivers = [
+                    "wall",
                     "floor",
                     "carpet"
                 ];
