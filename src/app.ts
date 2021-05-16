@@ -118,8 +118,8 @@ export class App {
                 const shadowGenerator = new ShadowGenerator(2048, downLight);
                 shadowGenerator.usePercentageCloserFiltering = true;
                 // shadowGenerator.blurKernel = 4;
-                shadowGenerator.transparencyShadow = true;
-                shadowGenerator.enableSoftTransparentShadow = true;
+                // shadowGenerator.transparencyShadow = true;
+                // shadowGenerator.enableSoftTransparentShadow = true;
                 shadowGenerator.getShadowMap().refreshRate = RenderTargetTexture.REFRESHRATE_RENDER_ONCE;
 
                 const casterPrefixes = [
