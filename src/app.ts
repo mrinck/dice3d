@@ -115,8 +115,8 @@ export class App {
 
                 // SHADOW
 
-                const shadowGenerator = new ShadowGenerator(2048, downLight);
-                shadowGenerator.usePercentageCloserFiltering = true;
+                const shadowGenerator = new ShadowGenerator(4096, downLight);
+                shadowGenerator.useBlurExponentialShadowMap  = true;
                 // shadowGenerator.blurKernel = 4;
                 // shadowGenerator.transparencyShadow = true;
                 // shadowGenerator.enableSoftTransparentShadow = true;
@@ -138,7 +138,6 @@ export class App {
                 });
 
                 const shadowReceivers = [
-                    "wall",
                     "floor",
                     "carpet"
                 ];
