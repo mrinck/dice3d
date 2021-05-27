@@ -73,14 +73,8 @@ export class App {
 
                 scene.meshes.forEach(mesh => {
                     mesh.renderOutline = true;
-                    mesh.outlineWidth = 0.007;
+                    mesh.outlineWidth = 0.008;
                     mesh.outlineColor = Color3.FromHexString("#000000");
-                });
-
-                // LIGHT
-
-                scene.lights.forEach(light => {
-                    light.intensity = .75;
                 });
 
                 // HemisphericLight
@@ -91,7 +85,6 @@ export class App {
                     this.scene
                 );
                 hemisphericLight.intensity = .7;
-                hemisphericLight.diffuse = Color3.FromHexString("#FFECD7");
 
                 // Directional DownLight
 
@@ -115,7 +108,7 @@ export class App {
 
                 // SHADOW
 
-                const shadowGenerator = new ShadowGenerator(4096, downLight);
+                const shadowGenerator = new ShadowGenerator(2048, downLight);
                 shadowGenerator.useBlurExponentialShadowMap  = true;
                 // shadowGenerator.blurKernel = 4;
                 // shadowGenerator.transparencyShadow = true;
